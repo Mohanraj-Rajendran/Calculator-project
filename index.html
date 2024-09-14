@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+
+            <input type="text" placeholder="0" id="os">
+            <button onclick="aclear()">AC</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="cube()">x3</button>
+            <button onclick="square()">x²</button>
+            <button onclick="display('/')">/</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')">x</button>
+            <button onclick="display('4')">4</button>  
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="sqroot()">√</button>
+            <button onclick="curoot()">∛</button>   
+            
+            <button class="rect" onclick="Arect()"><img src="rect.png" alt="" width="30" height="20"></button>
+            <button class="VCylinder" onclick="VCylinder()"><img src="https://cdn1.iconfinder.com/data/icons/art-design-and-development-vol-2/64/065-512.png" alt="" width="30" height="20"></button>
+            
+
+            <button onclick="display('+')">+</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+            <button class="equal" onclick="calc()">=</button>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
